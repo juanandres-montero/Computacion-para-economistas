@@ -1,3 +1,4 @@
+
 /*==================== MENU SHOW Y HIDDEN ====================*/
 /*
 const navMenu = document.getElementById('nav-menu'),
@@ -80,7 +81,7 @@ tabs.forEach(tab =>{
 */
 /*==================== SERVICES MODAL ====================*/
 
-/*const modalViews = document.querySelectorAll('.services__modal'),
+const modalViews = document.querySelectorAll('.services__modal'),
     modalBtns = document.querySelectorAll('.services__button'),
     modalCloses = document.querySelectorAll('.services__modal-close');
 
@@ -101,7 +102,7 @@ modalCloses.forEach(modalClose => {
         });
     });
 });
-*/
+
 /*==================== PORTFOLIO SWIPER  ====================*/
 let swiper = new Swiper(".portfolio__container", {
     cssMode: true,
